@@ -10,7 +10,7 @@ header {
     padding: 20px;
 }
 main {
-    padding: 20px;
+    margin: 10px;
 }
 .article {
     background-color: rgb(94, 94, 94);
@@ -18,6 +18,9 @@ main {
     padding: 10px;
     display: flex;
     flex-direction: row;
+}
+.article2 {
+    padding: 20px;
 }
 .container {
     padding: 10px;
