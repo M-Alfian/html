@@ -10,21 +10,69 @@ header {
     padding: 20px;
 }
 main {
-    margin: 10px;
+
 }
-.article {
+.a-head-float {
+    float: left;
+    padding: 20px;
+}
+.float-icon {
+    float: right;
+    padding: 20px;
+    display: block;
+}
+.float-icon > i {
+    padding: 50px;
+    border: 1px solid black;
+    transition: all 0.4s;
+}
+.float-icon > i:hover {
+    box-shadow: 4px 0px 4px 0 rgb(94, 94, 94);
+}
+/*black articles */
+.article-black {
     background-color: rgb(94, 94, 94);
     color: white;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: row;
+}
+.article-black-1 {
+    padding: 10px
+}
+.article-black-2 {
+    padding: 20px;
+}
+.article-black-3 {
+    padding: 30px;
+}
+
+/* article white */
+.article1 {
+    display: inline-block;
+    overflow: auto;
 }
 .article2 {
     padding: 20px;
 }
+.article3 {
+    padding: 30px;
+}
+
+/* container */
+.container-first {
+    float: left;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
 .container {
     padding: 10px;
     margin: 5px;
+    border: 3px solid black;
+}
+.container2 {
     border: 3px solid black;
 }
 footer {
